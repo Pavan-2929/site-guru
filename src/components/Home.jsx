@@ -83,11 +83,12 @@ const Home = () => {
           <h2 className="text-4xl font-semibold text-center text-gray-800">
             What Our Clients Say
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2  gap-8 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
             <div className="bg-white p-6 rounded-lg shadow-md mx-auto text-center max-w-md hover:shadow-xl transition duration-300 ease-in-out">
               <p className="text-gray-600 italic">
-                "XYZ Solutions transformed our online presence. Their attention
-                to detail and innovative approach were exactly what we needed!"
+                &quot;XYZ Solutions transformed our online presence. Their
+                attention to detail and innovative approach were exactly what we
+                needed!&quot;
               </p>
               <h4 className="mt-4 font-bold text-gray-800">
                 - Alice Johnson, CEO of TechCorp
@@ -95,8 +96,9 @@ const Home = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md mx-auto text-center max-w-md hover:shadow-xl transition duration-300 ease-in-out">
               <p className="text-gray-600 italic">
-                "The team at XYZ Solutions is fantastic! They guided us through
-                every step of the development process. Perfect Work"
+                &quot;The team at XYZ Solutions is fantastic! They guided us
+                through every step of the development process. Perfect
+                Work&quot;
               </p>
               <h4 className="mt-4 font-bold text-gray-800">
                 - Mark Smith, Founder of InnovateX
