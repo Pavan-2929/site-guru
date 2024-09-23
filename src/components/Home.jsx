@@ -11,7 +11,7 @@ import {
 const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-8 pt-6 sm:pt-12 lg:pt-40">
-      <div className="flex flex-col items-center justify-center text-center space-y-6 py-36">
+      <div id="home" className="flex flex-col items-center justify-center text-center space-y-6 py-36">
         <p className="text-xl font-semibold text-gray-700 -mb-4">Hi There, </p>
         <h1 className="text-2xl sm:text-5xl font-bold text-gray-800">
           We Build Software Solutions
@@ -26,8 +26,8 @@ const Home = () => {
         </button>
       </div>
 
-      <div className="mt-16">
-        <h2 className="text-4xl font-semibold text-center text-gray-800">
+      <div className="mt-16" >
+        <h2 id="service" className="text-4xl font-semibold text-center text-gray-800">
           Our Services
         </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
@@ -80,7 +80,7 @@ const Home = () => {
         </div>
 
         <div className="mt-36">
-          <h2 className="text-4xl font-semibold text-center text-gray-800">
+          <h2 id="review" className="text-4xl font-semibold text-center text-gray-800">
             What Our Clients Say
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 mt-8">
