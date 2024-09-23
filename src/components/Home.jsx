@@ -12,7 +12,7 @@ const Home = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-8 pt-6 sm:pt-12 lg:pt-40">
       <div className="flex flex-col items-center justify-center text-center space-y-6 py-36">
-        <p className="text-xl font-semibold text-gray-700 -mb-4">Let's start</p>
+        <p className="text-xl font-semibold text-gray-700 -mb-4">Hi There, </p>
         <h1 className="text-2xl sm:text-5xl font-bold text-gray-800">
           We Build Software Solutions
         </h1>
